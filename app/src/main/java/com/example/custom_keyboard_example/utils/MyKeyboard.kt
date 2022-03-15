@@ -1,4 +1,4 @@
-package com.example.custom_keyboard_example
+package com.example.custom_keyboard_example.utils
 
 import android.content.Context
 import android.text.TextUtils
@@ -9,6 +9,7 @@ import android.view.View
 import android.view.inputmethod.InputConnection
 import android.widget.Toast
 import androidx.appcompat.widget.LinearLayoutCompat
+import com.example.custom_keyboard_example.R
 import kotlinx.android.synthetic.main.keyboard.view.*
 
 class MyKeyboard @JvmOverloads constructor(
